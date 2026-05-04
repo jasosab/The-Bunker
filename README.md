@@ -114,7 +114,7 @@ npm start
 
 ---
 
-### ğŸ›ï¸?Productos
+### ğŸ›ï¿½?Productos
 
 | MÃ©todo | Endpoint             | DescripciÃ³n         |
 | ------ | -------------------- | ------------------- |
@@ -171,15 +171,15 @@ npm start
 ```bash
 backend/
 â”œâ”€â”€ src/
-â”?  â”œâ”€â”€ config/          # ConfiguraciÃ³n base de datos
-â”?  â”œâ”€â”€ controllers/     # LÃ³gica de negocio
-â”?  â”œâ”€â”€ middleware/      # Middleware personalizado
-â”?  â”œâ”€â”€ models/          # Modelos MongoDB
-â”?  â”œâ”€â”€ routes/          # Endpoints API
-â”?  â”œâ”€â”€ utils/           # Utilidades JWT
-â”?  â”œâ”€â”€ app.js           # ConfiguraciÃ³n Express
-â”?  â””â”€â”€ server.js        # Punto de entrada
-â”?
+ï¿½?  â”œâ”€â”€ config/          # ConfiguraciÃ³n base de datos
+ï¿½?  â”œâ”€â”€ controllers/     # LÃ³gica de negocio
+ï¿½?  â”œâ”€â”€ middleware/      # Middleware personalizado
+ï¿½?  â”œâ”€â”€ models/          # Modelos MongoDB
+ï¿½?  â”œâ”€â”€ routes/          # Endpoints API
+ï¿½?  â”œâ”€â”€ utils/           # Utilidades JWT
+ï¿½?  â”œâ”€â”€ app.js           # ConfiguraciÃ³n Express
+ï¿½?  â””â”€â”€ server.js        # Punto de entrada
+ï¿½?
 â”œâ”€â”€ .env.example
 â”œâ”€â”€ .gitignore
 â”œâ”€â”€ package.json
@@ -218,22 +218,22 @@ Ramas utilizadas:
 
 # TheBunker - Frontend
 
-Frontend moderno y masculino para el sistema de gesti¨®n de barber¨ªa TheBunker.
+Frontend moderno y masculino para el sistema de gestiï¿½ï¿½n de barberï¿½ï¿½a TheBunker.
 
-## ?? Tecnolog¨ªas
+## ?? Tecnologï¿½ï¿½as
 
 - **Vue 3** - Framework JavaScript progresivo
-- **Vite** - Build tool ultra r¨¢pido
+- **Vite** - Build tool ultra rï¿½ï¿½pido
 - **Tailwind CSS** - Framework CSS utilitario
 - **Vue Router** - Enrutamiento oficial de Vue
-- **Pinia** - Gesti¨®n de estado
+- **Pinia** - Gestiï¿½ï¿½n de estado
 - **Axios** - Cliente HTTP
 - **Lucide Vue** - Iconos modernos
 
-## ?? Caracter¨ªsticas de Dise?o
+## ?? Caracterï¿½ï¿½sticas de Dise?o
 
 - **Paleta de colores**: Negros, grises oscuros y acentos dorados/cobrizos
-- **Tipograf¨ªa**: Oswald (Display) y Poppins (Body)
+- **Tipografï¿½ï¿½a**: Oswald (Display) y Poppins (Body)
 - **Estilo**: Minimalista, moderno y profesional
 - **Responsive**: Adaptado a todos los dispositivos
 
@@ -243,7 +243,7 @@ Frontend moderno y masculino para el sistema de gesti¨®n de barber¨ªa TheBunker.
 - npm o yarn
 - Backend de TheBunker corriendo en `http://localhost:5000`
 
-## ??? Instalaci¨®n
+## ??? Instalaciï¿½ï¿½n
 
 1. **Clonar el repositorio**
 ```bash
@@ -270,81 +270,81 @@ VITE_API_URL=http://localhost:5000/api
 npm run dev
 ```
 
-El frontend estar¨¢ disponible en `http://localhost:3000`
+El frontend estarï¿½ï¿½ disponible en `http://localhost:3000`
 
 ## ?? Scripts Disponibles
 
 - `npm run dev` - Inicia el servidor de desarrollo
-- `npm run build` - Compila para producci¨®n
-- `npm run preview` - Previsualiza la compilaci¨®n de producci¨®n
+- `npm run build` - Compila para producciï¿½ï¿½n
+- `npm run preview` - Previsualiza la compilaciï¿½ï¿½n de producciï¿½ï¿½n
 
 ## ??? Estructura del Proyecto
 
 ```
 TheBunker-frontend/
-©À©¤©¤ public/              # Archivos est¨¢ticos
-©À©¤©¤ src/
-©¦   ©À©¤©¤ assets/          # Recursos (im¨¢genes, etc)
-©¦   ©À©¤©¤ components/      # Componentes reutilizables
-©¦   ©¦   ©¸©¤©¤ Layout/      # Navbar, Footer
-©¦   ©À©¤©¤ router/          # Configuraci¨®n de rutas
-©¦   ©À©¤©¤ services/        # Servicios API
-©¦   ©À©¤©¤ stores/          # Stores de Pinia
-©¦   ©À©¤©¤ views/           # Vistas/P¨¢ginas
-©¦   ©¦   ©À©¤©¤ Auth/        # Login, Registro
-©¦   ©¦   ©À©¤©¤ Dashboard/   # Dashboards por rol
-©¦   ©¦   ©¸©¤©¤ ...          # Otras vistas
-©¦   ©À©¤©¤ App.vue          # Componente ra¨ªz
-©¦   ©À©¤©¤ main.js          # Punto de entrada
-©¦   ©¸©¤©¤ style.css        # Estilos globales
-©À©¤©¤ index.html           # HTML principal
-©À©¤©¤ vite.config.js       # Configuraci¨®n de Vite
-©À©¤©¤ tailwind.config.js   # Configuraci¨®n de Tailwind
-©¸©¤©¤ package.json         # Dependencias
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ public/              # Archivos estï¿½ï¿½ticos
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ src/
+ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ assets/          # Recursos (imï¿½ï¿½genes, etc)
+ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ components/      # Componentes reutilizables
+ï¿½ï¿½   ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Layout/      # Navbar, Footer
+ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ router/          # Configuraciï¿½ï¿½n de rutas
+ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ services/        # Servicios API
+ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ stores/          # Stores de Pinia
+ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ views/           # Vistas/Pï¿½ï¿½ginas
+ï¿½ï¿½   ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Auth/        # Login, Registro
+ï¿½ï¿½   ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Dashboard/   # Dashboards por rol
+ï¿½ï¿½   ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ...          # Otras vistas
+ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ App.vue          # Componente raï¿½ï¿½z
+ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ main.js          # Punto de entrada
+ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ style.css        # Estilos globales
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ index.html           # HTML principal
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ vite.config.js       # Configuraciï¿½ï¿½n de Vite
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ tailwind.config.js   # Configuraciï¿½ï¿½n de Tailwind
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ package.json         # Dependencias
 ```
 
 ## ?? Funcionalidades Implementadas
 
-### P¨¢ginas P¨²blicas
+### Pï¿½ï¿½ginas Pï¿½ï¿½blicas
 - ? Landing Page moderna
-- ? Cat¨¢logo de Servicios
-- ? Cat¨¢logo de Productos con carrito
+- ? Catï¿½ï¿½logo de Servicios
+- ? Catï¿½ï¿½logo de Productos con carrito
 - ? Login y Registro
 
 ### Dashboard Cliente
-- ? Vista general con estad¨ªsticas
-- ? Gesti¨®n de citas
+- ? Vista general con estadï¿½ï¿½sticas
+- ? Gestiï¿½ï¿½n de citas
 - ? Historial de pedidos
 - ? Agendar nuevas citas
 
 ### Dashboard Barbero
 - ? Citas asignadas
-- ? Vista por d¨ªa/semana
+- ? Vista por dï¿½ï¿½a/semana
 - ? Completar y cancelar citas
 
 ### Dashboard Admin
-- ? Estad¨ªsticas generales
-- ? Gesti¨®n de citas
-- ? Gesti¨®n de servicios
-- ? Gesti¨®n de productos
-- ? Gesti¨®n de usuarios
+- ? Estadï¿½ï¿½sticas generales
+- ? Gestiï¿½ï¿½n de citas
+- ? Gestiï¿½ï¿½n de servicios
+- ? Gestiï¿½ï¿½n de productos
+- ? Gestiï¿½ï¿½n de usuarios
 - ? Control de inventario
 
-## ?? Gu¨ªa de Estilo
+## ?? Guï¿½ï¿½a de Estilo
 
 ### Colores Principales
 - **Primary**: `#c17e3e` (Dorado/Cobrizo)
 - **Dark 900**: `#0a0a0a` (Negro principal)
-- **Dark 950**: `#000000` (Negro m¨¢s oscuro)
+- **Dark 950**: `#000000` (Negro mï¿½ï¿½s oscuro)
 
 ### Componentes de UI
-- `btn-primary` - Bot¨®n principal con hover glow
-- `btn-secondary` - Bot¨®n secundario con borde
+- `btn-primary` - Botï¿½ï¿½n principal con hover glow
+- `btn-secondary` - Botï¿½ï¿½n secundario con borde
 - `input-field` - Input estilizado
 - `card` - Tarjeta con fondo oscuro
-- `nav-link` - Link de navegaci¨®n
+- `nav-link` - Link de navegaciï¿½ï¿½n
 
-## ?? Autenticaci¨®n
+## ?? Autenticaciï¿½ï¿½n
 
 El sistema maneja 4 roles de usuario:
 - **Cliente**: Puede agendar citas y comprar productos
@@ -352,12 +352,12 @@ El sistema maneja 4 roles de usuario:
 - **Recepcionista**: Acceso a funciones administrativas
 - **Admin**: Control total del sistema
 
-## ?? Integraci¨®n con Backend
+## ?? Integraciï¿½ï¿½n con Backend
 
-El frontend se conecta al backend mediante Axios. Todas las llamadas API est¨¢n en `/src/services/api.js`.
+El frontend se conecta al backend mediante Axios. Todas las llamadas API estï¿½ï¿½n en `/src/services/api.js`.
 
 ### Endpoints principales:
-- `POST /api/auth/login` - Iniciar sesi¨®n
+- `POST /api/auth/login` - Iniciar sesiï¿½ï¿½n
 - `POST /api/auth/registro` - Registrar usuario
 - `GET /api/servicios` - Obtener servicios
 - `GET /api/productos` - Obtener productos
@@ -366,23 +366,23 @@ El frontend se conecta al backend mediante Axios. Todas las llamadas API est¨¢n 
 
 ## ?? Despliegue
 
-Para compilar para producci¨®n:
+Para compilar para producciï¿½ï¿½n:
 
 ```bash
 npm run build
 ```
 
-Los archivos compilados estar¨¢n en `/dist` listos para ser desplegados en cualquier hosting est¨¢tico (Vercel, Netlify, etc).
+Los archivos compilados estarï¿½ï¿½n en `/dist` listos para ser desplegados en cualquier hosting estï¿½ï¿½tico (Vercel, Netlify, etc).
 
 ## ?? Contribuir
 
-Este es un proyecto acad¨¦mico para la Corporaci¨®n Universitaria Iberoamericana.
+Este es un proyecto acadï¿½ï¿½mico para la Corporaciï¿½ï¿½n Universitaria Iberoamericana.
 
 ## ?? Licencia
 
-Proyecto acad¨¦mico - TheBunker ? 2026
+Proyecto acadï¿½ï¿½mico - TheBunker ? 2026
 
-## ğŸ‘¨â€ğŸ’?Desarrollado por
+## ğŸ‘¨â€ï¿½?Desarrollado por
 
 **JesÃºs Alberto Sosa BarÃ³n**
 CorporaciÃ³n Universitaria Iberoamericana
