@@ -1,4 +1,4 @@
-![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
+﻿![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Database-green)
 ![Express](https://img.shields.io/badge/Express-API-lightgrey)
 
@@ -8,18 +8,18 @@ Backend API REST para el sistema de gestión de barbería **TheBunker**.
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## Tecnologías utilizadas
 
-* Node.js
-* Express.js
-* MongoDB + Mongoose
-* JWT para autenticación
-* bcryptjs para encriptación
-* express-validator para validaciones
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- JWT para autenticación
+- bcryptjs para encriptación
+- express-validator para validaciones
 
 ---
 
-## 📋 Instalación
+## Instalación
 
 ### Opción 1: Instalación automática (Windows)
 
@@ -35,12 +35,11 @@ npm install
 
 ---
 
-## ⚙️ Configuración
+## Configuración
 
-1. Copiar el archivo `.env.example`
-2. Renombrarlo a `.env`
-
-Configurar variables:
+1. Copiar el archivo `.env.example`.
+2. Renombrarlo a `.env`.
+3. Configurar las variables de entorno:
 
 ```env
 PORT=5000
@@ -52,7 +51,7 @@ NODE_ENV=development
 
 ---
 
-## ▶️ Ejecución
+## Ejecución
 
 ### Opción 1: Automática (Windows)
 
@@ -76,11 +75,9 @@ npm start
 
 ---
 
-## 📚 API Endpoints
+## API Endpoints
 
----
-
-### 🔐 Autenticación
+### Autenticación
 
 | Método | Endpoint             | Descripción       |
 | ------ | -------------------- | ----------------- |
@@ -88,9 +85,7 @@ npm start
 | POST   | `/api/auth/login`    | Iniciar sesión    |
 | GET    | `/api/auth/perfil`   | Obtener perfil    |
 
----
-
-### ✂️ Servicios
+### Servicios
 
 | Método | Endpoint             | Descripción         |
 | ------ | -------------------- | ------------------- |
@@ -99,9 +94,7 @@ npm start
 | PUT    | `/api/servicios/:id` | Actualizar servicio |
 | DELETE | `/api/servicios/:id` | Eliminar servicio   |
 
----
-
-### 📅 Citas
+### Citas
 
 | Método | Endpoint                    | Descripción     |
 | ------ | --------------------------- | --------------- |
@@ -112,9 +105,7 @@ npm start
 | PUT    | `/api/citas/:id/cancelar`   | Cancelar cita   |
 | GET    | `/api/citas/disponibilidad` | Ver horarios    |
 
----
-
-### 🛍�?Productos
+### Productos
 
 | Método | Endpoint             | Descripción         |
 | ------ | -------------------- | ------------------- |
@@ -123,9 +114,7 @@ npm start
 | PUT    | `/api/productos/:id` | Actualizar producto |
 | DELETE | `/api/productos/:id` | Eliminar producto   |
 
----
-
-### 📦 Pedidos
+### Pedidos
 
 | Método | Endpoint                   | Descripción       |
 | ------ | -------------------------- | ----------------- |
@@ -133,9 +122,7 @@ npm start
 | GET    | `/api/pedidos`             | Todos los pedidos |
 | POST   | `/api/pedidos`             | Crear pedido      |
 
----
-
-### 👥 Usuarios
+### Usuarios
 
 | Método | Endpoint            | Descripción        |
 | ------ | ------------------- | ------------------ |
@@ -145,41 +132,41 @@ npm start
 
 ---
 
-## 🔐 Roles del sistema
+## Roles del sistema
 
 ### cliente
 
-* Agendar citas
-* Comprar productos
+- Agendar citas
+- Comprar productos
 
 ### barbero
 
-* Gestionar citas asignadas
+- Gestionar citas asignadas
 
 ### recepcionista
 
-* Gestión administrativa parcial
+- Gestión administrativa parcial
 
 ### admin
 
-* Control total del sistema
+- Control total del sistema
 
 ---
 
-## 📦 Estructura del proyecto
+## Estructura del proyecto
 
 ```bash
 backend/
 ├── src/
-�?  ├── config/          # Configuración base de datos
-�?  ├── controllers/     # Lógica de negocio
-�?  ├── middleware/      # Middleware personalizado
-�?  ├── models/          # Modelos MongoDB
-�?  ├── routes/          # Endpoints API
-�?  ├── utils/           # Utilidades JWT
-�?  ├── app.js           # Configuración Express
-�?  └── server.js        # Punto de entrada
-�?
+│   ├── config/          # Configuración de base de datos
+│   ├── controllers/     # Lógica de negocio
+│   ├── middleware/      # Middleware personalizado
+│   ├── models/          # Modelos MongoDB
+│   ├── routes/          # Endpoints API
+│   ├── utils/           # Utilidades JWT
+│   ├── app.js           # Configuración Express
+│   └── server.js        # Punto de entrada
+│
 ├── .env.example
 ├── .gitignore
 ├── package.json
@@ -188,12 +175,12 @@ backend/
 
 ---
 
-## 🧪 Calidad de código
+## Calidad de código
 
 Herramientas implementadas:
 
-* ESLint
-* Prettier
+- ESLint
+- Prettier
 
 Ejecutar:
 
@@ -204,185 +191,213 @@ npm run format
 
 ---
 
-## 🌿 Flujo Git
+## Flujo Git
 
 Ramas utilizadas:
 
-* `main`
-* `develop`
-* `feature/login`
-* `feature/booking`
-* `feature/products`
+- `main`
+- `develop`
+- `feature/login`
+- `feature/booking`
+- `feature/products`
 
 ---
 
 # TheBunker - Frontend
 
-Frontend moderno y masculino para el sistema de gesti��n de barber��a TheBunker.
+Frontend moderno y profesional para el sistema de gestión de barbería **TheBunker**.
 
-## ?? Tecnolog��as
+## Tecnologías
 
 - **Vue 3** - Framework JavaScript progresivo
-- **Vite** - Build tool ultra r��pido
+- **Vite** - Build tool rápido
 - **Tailwind CSS** - Framework CSS utilitario
 - **Vue Router** - Enrutamiento oficial de Vue
-- **Pinia** - Gesti��n de estado
+- **Pinia** - Gestión de estado
 - **Axios** - Cliente HTTP
 - **Lucide Vue** - Iconos modernos
 
-## ?? Caracter��sticas de Dise?o
+## Características de diseño
 
-- **Paleta de colores**: Negros, grises oscuros y acentos dorados/cobrizos
-- **Tipograf��a**: Oswald (Display) y Poppins (Body)
-- **Estilo**: Minimalista, moderno y profesional
-- **Responsive**: Adaptado a todos los dispositivos
+- **Paleta de colores**: negros, grises oscuros, azul TheBunker y blanco.
+- **Color primario**: `#0d8bff`
+- **Color secundario**: `#1e40af`
+- **Color de acento**: `#60a5fa`
+- **Tipografía**: Oswald para títulos y Poppins para textos.
+- **Estilo**: minimalista, moderno y profesional.
+- **Responsive**: adaptado a dispositivos móviles, tabletas y escritorio.
 
-## ?? Requisitos Previos
+## Requisitos previos
 
-- Node.js 18+ 
+- Node.js 18+
 - npm o yarn
 - Backend de TheBunker corriendo en `http://localhost:5000`
 
-## ??? Instalaci��n
+## Instalación
 
-1. **Clonar el repositorio**
+1. Clonar el repositorio:
+
 ```bash
 cd TheBunker-frontend
 ```
 
-2. **Instalar dependencias**
+2. Instalar dependencias:
+
 ```bash
 npm install
 ```
 
-3. **Configurar variables de entorno**
+3. Configurar variables de entorno:
+
 ```bash
 cp .env.example .env
 ```
 
-Edita el archivo `.env` y configura la URL de tu API:
-```
+Editar el archivo `.env` y configurar la URL de la API:
+
+```env
 VITE_API_URL=http://localhost:5000/api
 ```
 
-4. **Iniciar el servidor de desarrollo**
+4. Iniciar el servidor de desarrollo:
+
 ```bash
 npm run dev
 ```
 
-El frontend estar�� disponible en `http://localhost:3000`
+El frontend estará disponible en:
 
-## ?? Scripts Disponibles
+```bash
+http://localhost:3000
+```
+
+## Scripts disponibles
 
 - `npm run dev` - Inicia el servidor de desarrollo
-- `npm run build` - Compila para producci��n
-- `npm run preview` - Previsualiza la compilaci��n de producci��n
+- `npm run build` - Compila para producción
+- `npm run preview` - Previsualiza la compilación de producción
 
-## ??? Estructura del Proyecto
+## Estructura del proyecto
 
-```
+```bash
 TheBunker-frontend/
-������ public/              # Archivos est��ticos
-������ src/
-��   ������ assets/          # Recursos (im��genes, etc)
-��   ������ components/      # Componentes reutilizables
-��   ��   ������ Layout/      # Navbar, Footer
-��   ������ router/          # Configuraci��n de rutas
-��   ������ services/        # Servicios API
-��   ������ stores/          # Stores de Pinia
-��   ������ views/           # Vistas/P��ginas
-��   ��   ������ Auth/        # Login, Registro
-��   ��   ������ Dashboard/   # Dashboards por rol
-��   ��   ������ ...          # Otras vistas
-��   ������ App.vue          # Componente ra��z
-��   ������ main.js          # Punto de entrada
-��   ������ style.css        # Estilos globales
-������ index.html           # HTML principal
-������ vite.config.js       # Configuraci��n de Vite
-������ tailwind.config.js   # Configuraci��n de Tailwind
-������ package.json         # Dependencias
+├── public/              # Archivos estáticos
+├── src/
+│   ├── assets/          # Recursos, imágenes y estilos
+│   ├── components/      # Componentes reutilizables
+│   │   └── Layout/      # Navbar y Footer
+│   ├── router/          # Configuración de rutas
+│   ├── services/        # Servicios API
+│   ├── stores/          # Stores de Pinia
+│   ├── views/           # Vistas y páginas
+│   │   ├── Auth/        # Login y Registro
+│   │   ├── Dashboard/   # Dashboards por rol
+│   │   └── ...          # Otras vistas
+│   ├── App.vue          # Componente raíz
+│   ├── main.js          # Punto de entrada
+│   └── style.css        # Estilos globales
+│
+├── index.html           # HTML principal
+├── vite.config.js       # Configuración de Vite
+├── tailwind.config.js   # Configuración de Tailwind
+└── package.json         # Dependencias
 ```
 
-## ?? Funcionalidades Implementadas
+## Funcionalidades implementadas
 
-### P��ginas P��blicas
-- ? Landing Page moderna
-- ? Cat��logo de Servicios
-- ? Cat��logo de Productos con carrito
-- ? Login y Registro
+### Páginas públicas
 
-### Dashboard Cliente
-- ? Vista general con estad��sticas
-- ? Gesti��n de citas
-- ? Historial de pedidos
-- ? Agendar nuevas citas
+- Landing page moderna
+- Catálogo de servicios
+- Catálogo de productos con carrito
+- Login y registro
 
-### Dashboard Barbero
-- ? Citas asignadas
-- ? Vista por d��a/semana
-- ? Completar y cancelar citas
+### Dashboard cliente
 
-### Dashboard Admin
-- ? Estad��sticas generales
-- ? Gesti��n de citas
-- ? Gesti��n de servicios
-- ? Gesti��n de productos
-- ? Gesti��n de usuarios
-- ? Control de inventario
+- Vista general con estadísticas
+- Gestión de citas
+- Historial de pedidos
+- Agendar nuevas citas
 
-## ?? Gu��a de Estilo
+### Dashboard barbero
 
-### Colores Principales
-- **Primary**: `#c17e3e` (Dorado/Cobrizo)
-- **Dark 900**: `#0a0a0a` (Negro principal)
-- **Dark 950**: `#000000` (Negro m��s oscuro)
+- Citas asignadas
+- Vista por día y semana
+- Completar y cancelar citas
+
+### Dashboard admin
+
+- Estadísticas generales
+- Gestión de citas
+- Gestión de servicios
+- Gestión de productos
+- Gestión de usuarios
+- Control de inventario
+
+## Guía de estilo
+
+### Colores principales
+
+- **Primary**: `#0d8bff` - Azul TheBunker
+- **Primary Dark**: `#1e40af` - Azul profundo
+- **Accent**: `#60a5fa` - Azul claro
+- **White**: `#ffffff` - Texto principal y contraste
+- **Dark 900**: `#0a0a0a` - Negro principal
+- **Dark 950**: `#000000` - Negro más oscuro
 
 ### Componentes de UI
-- `btn-primary` - Bot��n principal con hover glow
-- `btn-secondary` - Bot��n secundario con borde
+
+- `btn-primary` - Botón principal azul con hover glow
+- `btn-secondary` - Botón secundario con borde azul
 - `input-field` - Input estilizado
 - `card` - Tarjeta con fondo oscuro
-- `nav-link` - Link de navegaci��n
+- `nav-link` - Link de navegación
 
-## ?? Autenticaci��n
+## Autenticación
 
 El sistema maneja 4 roles de usuario:
-- **Cliente**: Puede agendar citas y comprar productos
-- **Barbero**: Gestiona sus citas asignadas
-- **Recepcionista**: Acceso a funciones administrativas
-- **Admin**: Control total del sistema
 
-## ?? Integraci��n con Backend
+- **Cliente**: puede agendar citas y comprar productos.
+- **Barbero**: gestiona sus citas asignadas.
+- **Recepcionista**: accede a funciones administrativas parciales.
+- **Admin**: tiene control total del sistema.
 
-El frontend se conecta al backend mediante Axios. Todas las llamadas API est��n en `/src/services/api.js`.
+## Integración con backend
 
-### Endpoints principales:
-- `POST /api/auth/login` - Iniciar sesi��n
+El frontend se conecta al backend mediante Axios. Todas las llamadas API están en:
+
+```bash
+/src/services/api.js
+```
+
+### Endpoints principales
+
+- `POST /api/auth/login` - Iniciar sesión
 - `POST /api/auth/registro` - Registrar usuario
 - `GET /api/servicios` - Obtener servicios
 - `GET /api/productos` - Obtener productos
 - `POST /api/citas` - Crear cita
 - `GET /api/citas/disponibilidad` - Ver disponibilidad
 
-## ?? Despliegue
+## Despliegue
 
-Para compilar para producci��n:
+Para compilar para producción:
 
 ```bash
 npm run build
 ```
 
-Los archivos compilados estar��n en `/dist` listos para ser desplegados en cualquier hosting est��tico (Vercel, Netlify, etc).
+Los archivos compilados estarán en `/dist`, listos para ser desplegados en un hosting estático como Vercel, Netlify u otro similar.
 
-## ?? Contribuir
+## Contribuir
 
-Este es un proyecto acad��mico para la Corporaci��n Universitaria Iberoamericana.
+Este es un proyecto académico para la Corporación Universitaria Iberoamericana.
 
-## ?? Licencia
+## Licencia
 
-Proyecto acad��mico - TheBunker ? 2026
+Proyecto académico - TheBunker 2026
 
-## 👨‍�?Desarrollado por
+## Desarrollado por
 
-**Jesús Alberto Sosa Barón**
+**Jesús Alberto Sosa Barón**  
 Corporación Universitaria Iberoamericana
