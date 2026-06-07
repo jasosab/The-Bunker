@@ -162,9 +162,9 @@ Este es un proyecto académico para la Corporación Universitaria Iberoamericana
 
 ## 📝 Licencia
 
-Proyecto académico - TheBunker © 2025
+Proyecto académico - TheBunker © 2026
 
 ---
 
-**Desarrollado por**: Santiago Cuervo Velasco  
+**Desarrollado por**: Jesús Alberto Sosa Barón  
 **Institución**: Corporación Universitaria Iberoamericana

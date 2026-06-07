@@ -1,31 +1,33 @@
 # TheBunker Backend
 
-Backend API REST para el sistema de gestiÃ³n de barberÃ­a TheBunker.
+Backend API REST para el sistema de gesti¨®n de barber¨ªa TheBunker.
 
-## ðŸš€ TecnologÃ­as
+## ?? Tecnolog¨ªas
 
-- Node.js
-- Express.js
-- MongoDB + Mongoose
-- JWT para autenticaciÃ³n
-- bcryptjs para encriptaciÃ³n
-- express-validator para validaciones
+* Node.js
+* Express.js
+* MongoDB + Mongoose
+* JWT para autenticaci¨®n
+* bcryptjs para encriptaci¨®n
+* express-validator para validaciones
 
-## ðŸ“‹ InstalaciÃ³n
+## ??? Instalaci¨®n
 
-### OpciÃ³n 1: AutomÃ¡tica (Windows)
+### Opci¨®n 1: Autom¨¢tica (Windows)
+
 ```bash
 instalar.bat
 ```
 
-### OpciÃ³n 2: Manual
+### Opci¨®n 2: Manual
+
 ```bash
 npm install
 ```
 
-## âš™ï¸ ConfiguraciÃ³n
+## ?? Configuraci¨®n
 
-1. Copia el archivo `.env.example` y renÃ³mbralo a `.env`
+1. Copia el archivo `.env.example` y ren¨®mbralo a `.env`
 2. Configura tus variables de entorno:
 
 ```env
@@ -36,86 +38,110 @@ JWT_EXPIRE=7d
 NODE_ENV=development
 ```
 
-## ðŸƒ Ejecutar
+## ?? Ejecutar
 
-### OpciÃ³n 1: AutomÃ¡tica (Windows)
+### Opci¨®n 1: Autom¨¢tica (Windows)
+
 ```bash
 iniciar.bat
 ```
 
-### OpciÃ³n 2: Manual
-```bash
-# Desarrollo
-npm run dev
+### Opci¨®n 2: Manual
 
-# ProducciÃ³n
+#### Desarrollo
+
+```bash
+npm run dev
+```
+
+#### Producci¨®n
+
+```bash
 npm start
 ```
 
-## ðŸ“š API Endpoints
+## ?? API Endpoints
 
-### AutenticaciÃ³n
-- `POST /api/auth/registro` - Registrar usuario
-- `POST /api/auth/login` - Iniciar sesiÃ³n
-- `GET /api/auth/perfil` - Obtener perfil (requiere token)
+### Autenticaci¨®n
+
+* `POST /api/auth/registro` - Registrar usuario
+* `POST /api/auth/login` - Iniciar sesi¨®n
+* `GET /api/auth/perfil` - Obtener perfil (requiere token)
 
 ### Servicios
-- `GET /api/servicios` - Listar servicios
-- `POST /api/servicios` - Crear servicio (admin)
-- `PUT /api/servicios/:id` - Actualizar servicio (admin)
-- `DELETE /api/servicios/:id` - Eliminar servicio (admin)
+
+* `GET /api/servicios` - Listar servicios
+* `POST /api/servicios` - Crear servicio (admin)
+* `PUT /api/servicios/:id` - Actualizar servicio (admin)
+* `DELETE /api/servicios/:id` - Eliminar servicio (admin)
 
 ### Citas
-- `GET /api/citas/mis-citas` - Mis citas
-- `GET /api/citas` - Todas las citas (admin/barbero)
-- `POST /api/citas` - Crear cita
-- `PUT /api/citas/:id` - Actualizar cita
-- `PUT /api/citas/:id/cancelar` - Cancelar cita
-- `GET /api/citas/disponibilidad` - Ver horarios disponibles
+
+* `GET /api/citas/mis-citas` - Mis citas
+* `GET /api/citas` - Todas las citas (admin/barbero)
+* `POST /api/citas` - Crear cita
+* `PUT /api/citas/:id` - Actualizar cita
+* `PUT /api/citas/:id/cancelar` - Cancelar cita
+* `GET /api/citas/disponibilidad` - Ver horarios disponibles
 
 ### Productos
-- `GET /api/productos` - Listar productos
-- `POST /api/productos` - Crear producto (admin)
-- `PUT /api/productos/:id` - Actualizar producto (admin)
-- `DELETE /api/productos/:id` - Eliminar producto (admin)
+
+* `GET /api/productos` - Listar productos
+* `POST /api/productos` - Crear producto (admin)
+* `PUT /api/productos/:id` - Actualizar producto (admin)
+* `DELETE /api/productos/:id` - Eliminar producto (admin)
 
 ### Pedidos
-- `GET /api/pedidos/mis-pedidos` - Mis pedidos
-- `GET /api/pedidos` - Todos los pedidos (admin)
-- `POST /api/pedidos` - Crear pedido
+
+* `GET /api/pedidos/mis-pedidos` - Mis pedidos
+* `GET /api/pedidos` - Todos los pedidos (admin)
+* `POST /api/pedidos` - Crear pedido
 
 ### Usuarios
-- `GET /api/usuarios` - Listar usuarios (admin)
-- `PUT /api/usuarios/:id` - Actualizar usuario (admin)
-- `DELETE /api/usuarios/:id` - Eliminar usuario (admin)
 
-## ðŸ” Roles
+* `GET /api/usuarios` - Listar usuarios (admin)
+* `PUT /api/usuarios/:id` - Actualizar usuario (admin)
+* `DELETE /api/usuarios/:id` - Eliminar usuario (admin)
 
-- **cliente**: Puede agendar citas y realizar compras
-- **barbero**: Gestiona sus citas asignadas
-- **recepcionista**: Acceso administrativo
-- **admin**: Control total del sistema
+## ?? Roles
 
-## ðŸ“¦ Estructura
+### Cliente
 
-```
+* Puede agendar citas
+* Puede realizar compras
+
+### Barbero
+
+* Gestiona sus citas asignadas
+
+### Recepcionista
+
+* Acceso administrativo
+
+### Admin
+
+* Control total del sistema
+
+## ?? Estructura
+
+```text
 backend/
-â”œâ”€â”€ src/
-â”?  â”œâ”€â”€ config/          # ConfiguraciÃ³n (DB)
-â”?  â”œâ”€â”€ controllers/     # LÃ³gica de negocio
-â”?  â”œâ”€â”€ middleware/      # Middleware personalizado
-â”?  â”œâ”€â”€ models/          # Modelos de MongoDB
-â”?  â”œâ”€â”€ routes/          # DefiniciÃ³n de rutas
-â”?  â”œâ”€â”€ utils/           # Utilidades (JWT)
-â”?  â”œâ”€â”€ app.js          # ConfiguraciÃ³n de Express
-â”?  â””â”€â”€ server.js       # Punto de entrada
-â”œâ”€â”€ .env.example        # Variables de entorno ejemplo
-â”œâ”€â”€ .gitignore
-â”œâ”€â”€ package.json
-â””â”€â”€ README.md
+©À©¤©¤ src/
+©¦   ©À©¤©¤ config/          # Configuraci¨®n (DB)
+©¦   ©À©¤©¤ controllers/     # L¨®gica de negocio
+©¦   ©À©¤©¤ middleware/      # Middleware personalizado
+©¦   ©À©¤©¤ models/          # Modelos de MongoDB
+©¦   ©À©¤©¤ routes/          # Definici¨®n de rutas
+©¦   ©À©¤©¤ utils/           # Utilidades (JWT)
+©¦   ©À©¤©¤ app.js           # Configuraci¨®n de Express
+©¦   ©¸©¤©¤ server.js        # Punto de entrada
+©À©¤©¤ .env.example         # Variables de entorno ejemplo
+©À©¤©¤ .gitignore
+©À©¤©¤ package.json
+©¸©¤©¤ README.md
 ```
 
-## ðŸ‘¨â€ðŸ’?Desarrollado por
+## ????? Desarrollado por
 
-Santiago Cuervo Velasco  
-CorporaciÃ³n Universitaria Iberoamericana
+**Jes¨²s Alberto Sosa Bar¨®n**
+Corporaci¨®n Universitaria Iberoamericana
