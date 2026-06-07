@@ -42,8 +42,8 @@
             <p class="text-gray-400 text-sm mb-1">Pendientes</p>
             <p class="text-3xl font-bold text-white">{{ citasPendientes.length }}</p>
           </div>
-          <div class="w-12 h-12 bg-yellow-500/20 rounded-lg flex items-center justify-center">
-            <Clock class="w-6 h-6 text-yellow-500" />
+          <div class="w-12 h-12 bg-primary-500/20 rounded-lg flex items-center justify-center">
+            <Clock class="w-6 h-6 text-primary-500" />
           </div>
         </div>
       </div>
@@ -251,7 +251,7 @@ const formatDate = (date) => {
 
 const getEstadoClass = (estado) => {
   const classes = {
-    confirmada: 'bg-yellow-500/20 text-yellow-500',
+    confirmada: 'bg-primary-500/20 text-primary-500',
     completada: 'bg-green-500/20 text-green-500',
     cancelada: 'bg-red-500/20 text-red-500',
   }

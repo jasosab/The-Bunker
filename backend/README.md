@@ -117,5 +117,5 @@ backend/
 
 ## ğŸ‘¨â€ğŸ’?Desarrollado por
 
-Jes¨²s Alberto Sosa Bar¨®n
+Santiago Cuervo Velasco  
 CorporaciÃ³n Universitaria Iberoamericana

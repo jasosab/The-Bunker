@@ -55,7 +55,7 @@
             <!-- Badge de stock -->
             <div 
               v-if="producto.stock <= 5 && producto.stock > 0"
-              class="absolute top-2 right-2 bg-yellow-500 text-dark-900 px-2 py-1 rounded text-xs font-bold"
+              class="absolute top-2 right-2 bg-primary-500 text-white px-2 py-1 rounded text-xs font-bold"
             >
               ¡Pocas unidades!
             </div>

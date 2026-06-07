@@ -9,7 +9,7 @@
               <Scissors class="w-5 h-5 text-white" />
             </div>
             <span class="text-xl font-display font-bold text-white">
-              Kings<span class="text-primary-500">Cutz</span>
+              The<span class="text-primary-500">Bunker</span>
             </span>
           </div>
           <p class="text-gray-400 text-sm">

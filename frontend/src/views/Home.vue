@@ -17,7 +17,7 @@
         </div>
         
         <h1 class="text-6xl md:text-8xl font-display font-bold text-white mb-6 text-shadow">
-          Kings<span class="text-primary-500">Cutz</span>
+          The<span class="text-primary-500">Bunker</span>
         </h1>
         
         <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">

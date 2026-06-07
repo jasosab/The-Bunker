@@ -115,7 +115,7 @@ TheBunker-frontend/
 ## 🎨 Guía de Estilo
 
 ### Colores Principales
-- **Primary**: `#c17e3e` (Dorado/Cobrizo)
+- **Primary**: `#0d8bff` (Azul TheBunker)
 - **Dark 900**: `#0a0a0a` (Negro principal)
 - **Dark 950**: `#000000` (Negro más oscuro)
 
@@ -162,9 +162,9 @@ Este es un proyecto académico para la Corporación Universitaria Iberoamericana
 
 ## 📝 Licencia
 
-Proyecto académico - TheBunker © 2026
+Proyecto académico - TheBunker © 2025
 
 ---
 
-**Desarrollado por**: Jesús Alberto Sosa Baron  
+**Desarrollado por**: Santiago Cuervo Velasco  
 **Institución**: Corporación Universitaria Iberoamericana

@@ -54,7 +54,7 @@
   }
   
   .gradient-primary {
-    background: linear-gradient(135deg, #c17e3e 0%, #954f2c 100%);
+    background: linear-gradient(135deg, #0d8bff 0%, #0057d9 100%);
   }
   
   .gradient-dark {
@@ -72,12 +72,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #c17e3e;
+  background: #0d8bff;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #954f2c;
+  background: #0057d9;
 }
 
 /* Animaciones */

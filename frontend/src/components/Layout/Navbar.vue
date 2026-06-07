@@ -8,7 +8,7 @@
             <Scissors class="w-6 h-6 text-white transform group-hover:rotate-12 transition-transform" />
           </div>
           <span class="text-2xl font-display font-bold text-white">
-            Kings<span class="text-primary-500">Cutz</span>
+            The<span class="text-primary-500">Bunker</span>
           </span>
         </router-link>
 

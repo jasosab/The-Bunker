@@ -244,7 +244,7 @@ const formatDate = (date) => {
 const getEstadoClass = (estado) => {
   const classes = {
     confirmada: 'bg-green-500/20 text-green-500',
-    pendiente: 'bg-yellow-500/20 text-yellow-500',
+    pendiente: 'bg-primary-500/20 text-primary-500',
     procesando: 'bg-blue-500/20 text-blue-500',
     enviado: 'bg-purple-500/20 text-purple-500',
     entregado: 'bg-green-500/20 text-green-500',

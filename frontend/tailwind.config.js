@@ -7,18 +7,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Paleta TheBunker - Moderna y Masculina
+        // Paleta TheBunker - Azul, blanco y negro
         primary: {
-          50: '#faf5f0',
-          100: '#f5eadb',
-          200: '#e9d3b6',
-          300: '#dab487',
-          400: '#ca9259',
-          500: '#c17e3e',
-          600: '#b36633',
-          700: '#954f2c',
-          800: '#794129',
-          900: '#633723',
+          50: '#eff6ff',
+          100: '#dbeafe',
+          200: '#bfdbfe',
+          300: '#93c5fd',
+          400: '#60a5fa',
+          500: '#0d8bff',
+          600: '#0077ff',
+          700: '#0057d9',
+          800: '#0046b3',
+          900: '#003a8c',
         },
         dark: {
           50: '#f6f6f6',
@@ -39,8 +39,8 @@ export default {
         'body': ['Poppins', 'sans-serif'],
       },
       boxShadow: {
-        'glow': '0 0 20px rgba(193, 126, 62, 0.3)',
-        'glow-lg': '0 0 40px rgba(193, 126, 62, 0.5)',
+        'glow': '0 0 20px rgba(13, 139, 255, 0.35)',
+        'glow-lg': '0 0 40px rgba(13, 139, 255, 0.55)',
       },
     },
   },

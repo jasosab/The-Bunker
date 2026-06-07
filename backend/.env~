@@ -13,11 +13,11 @@ NODE_ENV=development
 # ========================================
 
 # MongoDB Local (instala MongoDB en tu PC)
-MONGODB_URI=mongodb://localhost:27017/TheBunker
+MONGODB_URI=mongodb://localhost:27017/thebunker
 
 # MongoDB Atlas (recomendado - gratis en la nube)
 # Descomenta y usa esta línea si usas MongoDB Atlas:
-# MONGODB_URI=mongodb+srv://tu-usuario:tu-password@cluster0.xxxxx.mongodb.net/TheBunker?retryWrites=true&w=majority
+# MONGODB_URI=mongodb+srv://tu-usuario:tu-password@cluster0.xxxxx.mongodb.net/thebunker?retryWrites=true&w=majority
 
 # ========================================
 # SEGURIDAD - JWT (JSON Web Tokens)
